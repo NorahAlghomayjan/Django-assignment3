@@ -1,0 +1,43 @@
+.cont1 {
+    border: 2px solid rgb(147, 166, 197);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.row {
+    margin: 20px auto;
+}
+
+input,
+textarea,
+select {
+    border: 1px solid rgb(147, 166, 197);
+}
+
+label {
+    font-weight: 600;
+}
+
+.to-right {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px auto;
+}
+
+.btn-a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.btnCustom {
+    display: flex;
+    justify-content: center;
+}
+
+button, .btnCustom {
+    border:1px solid black;
+    background-color: rgb(46, 128, 179);
+    color: white;
+    box-shadow: 3px 3px black;
+    width: 100px;
+}
